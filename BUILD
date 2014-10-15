@@ -3,6 +3,7 @@ cc_library(
   export_incs = './include',
   extra_cppflags = [
     '-Wno-float-equal',
+    '-Wno-error=format-nonliteral',
   ],
   srcs = [
     'src/lib_json/json_reader.cpp',
