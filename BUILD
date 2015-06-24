@@ -1,5 +1,6 @@
 cc_library(
   name = 'jsoncpp',
+  warning = 'no',
   export_incs = [
     'include',
   ],
